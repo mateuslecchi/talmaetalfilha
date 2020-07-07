@@ -111,13 +111,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #e86a86;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: #e86a858c !important;
 			text-decoration: none;
 		}
 
@@ -1841,7 +1841,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			border-color: #e86a86;
 		}
 
 	select {
@@ -1946,7 +1946,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #49bf9d;
+			border-color: #e86a86;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2091,6 +2091,8 @@ input, select, textarea {
 
 			.image.thumb:hover:after {
 				opacity: 1.0;
+				border: solid 3px #e86a86;
+
 			}
 
 			.image.thumb:hover:before {
@@ -2231,7 +2233,7 @@ input, select, textarea {
 			}
 
 			ul.labeled-icons li h3 {
-				color: #b2b2b2;
+				color: #e86a86 ;
 				left: 0;
 				position: absolute;
 				text-align: center;
@@ -2445,8 +2447,8 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
-		color: #787878 !important;
+		border: solid 3px #e86a86 ;
+		color: #e86a86!important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2464,8 +2466,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #e86a858c;
+			color: #e86a858c !important;
 		}
 
 		input[type="submit"]:active,
@@ -2473,8 +2475,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #e86a86;
+			color: #e86a86 !important;
 		}
 
 		input[type="submit"].icon,
@@ -2517,8 +2519,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #49bf9d;
-			border-color: #49bf9d;
+			background-color: #e86a86;
+			border-color: #e86a86;
 			color: #ffffff !important;
 		}
 
@@ -2526,16 +2528,16 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #5cc6a7;
-				border-color: #5cc6a7;
+				background-color: #e86a858c;
+				border-color: #e86a858c;
 			}
 
 			input[type="submit"].primary:active,
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			.button.primary:active {
-				background-color: #3eb08f;
-				border-color: #3eb08f;
+				background-color: #e86a858c;
+				border-color: #e86a858c;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2639,8 +2641,8 @@ input, select, textarea {
 		}
 
 		#header .image.avatar {
-			margin: 0 0 1em 0;
-			width: 6.25em;
+			margin: 0 0 0em 0;
+			width: 10em;
 		}
 
 /* Footer */
@@ -2650,7 +2652,7 @@ input, select, textarea {
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+			color: #e86a86 ;
 		}
 
 	#footer .copyright {
@@ -2689,7 +2691,7 @@ input, select, textarea {
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
+			border-top: solid 2px #e86a86;
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
@@ -2859,7 +2861,7 @@ input, select, textarea {
 
 			.poptrox-popup .nav-next:before,
 			.poptrox-popup .nav-previous:before {
-				color: #fff;
+				color: #e86a86 ;
 				font-size: 2.5em;
 				height: 1em;
 				line-height: 1em;
@@ -2894,8 +2896,8 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-			color: #fff;
+			-webkit-tap-highlight-color: #e86a86 ;
+			color: #e86a86;
 			height: 4em;
 			line-height: 4em;
 			opacity: 0;
@@ -2926,7 +2928,7 @@ input, select, textarea {
 				-ms-box-sizing: content-box;
 				box-sizing: content-box;
 				border-radius: 100%;
-				border: solid 3px rgba(255, 255, 255, 0.5);
+				border: solid 3px #e86a86 ;
 				content: '\f00d';
 				display: block;
 				font-size: 1em;
