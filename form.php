@@ -29,9 +29,9 @@ $mail->Username = $emailAc;
 //Password to use for SMTP authentication
 $mail->Password = $emailPass;
 //Set who the message is to be sent from
-$mail->setFrom($emailSent, 'Jeime Santana');
+$mail->setFrom($emailSent, 'Tal Mãe, Tal Filha');
 //Set who the message is to be sent to
-$mail->addAddress($emailRec, 'Jeime Santana');
+$mail->addAddress($emailRec, 'Tal Mãe, Tal Filha');
 //Set the subject line
 $mail->Subject = 'Contato de '.utf8_decode($_POST['name']);
 //Read an HTML message body from an external file, convert referenced images to embedded,
@@ -47,5 +47,5 @@ if (!$mail->send()) {
     echo 'Mailer Error: ' . $mail->ErrorInfo;
 } else {
     echo 'Message sent!';
-    header('Location: https://jeimesantana.com.br/');
+    header('Location: https://www.talmaetalfilhaarte.com/');
 }
