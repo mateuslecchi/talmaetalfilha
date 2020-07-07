@@ -29,7 +29,7 @@ $mail->Username = $emailAc;
 //Password to use for SMTP authentication
 $mail->Password = $emailPass;
 //Set who the message is to be sent from
-$mail->setFrom($emailSent, 'Tal Mãe, Tal Filha');
+$mail->setFrom($emailSent, utf8_decode('Tal Mãe, Tal Filha'));
 //Set who the message is to be sent to
 $mail->addAddress($emailRec, 'Tal Mãe, Tal Filha');
 //Set the subject line
